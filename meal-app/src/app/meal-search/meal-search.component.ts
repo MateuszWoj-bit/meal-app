@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { MealService } from '../meal.service';
 
 @Component({
-  selector: 'app-your-component',
+  selector: 'meal-search',
   template: `
     <h1>Meal Details</h1>
     <button (click)="searchMeal('Arrabiata')">Search Arrabiata</button>
